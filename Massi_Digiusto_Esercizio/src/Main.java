@@ -1,13 +1,15 @@
+import java.util.Scanner;
+public class Main{    
     public static void main(String[] args) {
         
         Gara gara = new Gara();
         int nAtleti;
-
+        int nPiste;
         
         int scelta = 0;
         boolean exc;
         Scanner input = new Scanner(System.in);
-        System.out.print("Inserire il numero di atleti: ");
+        System.out.println("Inserire il numero di atleti: ");
         nAtleti = input.nextInt();
 
         do{
@@ -170,5 +172,5 @@
 
             atleti[i] = new Atleta(nomeAux, cognomeAux, dataNascitaAux, specialitaAux);
         }
-
+    }
 }

@@ -37,11 +37,11 @@ public class Gara {
         return oraInizio;
     }
 
-    public Pista getPisteDisp(){
-        return pisteDisp;
+    public Pista getPisteDisp(int index){
+        return pisteDisp[index];
     }
 
-    public Atleta getAtleti(){
-        return atleti;
+    public Atleta getAtleti(int index){
+        return atleti[index];
     }    
 }

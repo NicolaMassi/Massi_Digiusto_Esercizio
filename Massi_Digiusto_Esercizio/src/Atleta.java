@@ -44,7 +44,11 @@ public class Atleta {
         return dataNascita;
     }
 
-    public String getSpecilita(){
+    public String getSpecialita(){
         return specialita;
+    }
+
+    public String toString(){
+        return nome + cognome + dataNascita + specialita;
     }
 }

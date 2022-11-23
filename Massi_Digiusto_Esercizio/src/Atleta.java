@@ -2,12 +2,12 @@ public class Atleta {
 
     private String nome;
     private String cognome;
-    private String dataNascita;    //Implementare con la classe Data
+    private Data dataNascita;    //Implementare con la classe Data
     private String specialita;
 
     public Atleta(){}
 
-    public Atleta(String nome, String cognome, String dataNascita, String specialita){
+    public Atleta(String nome, String cognome, Data dataNascita, String specialita){
 
         this.nome = nome;
         this.cognome = cognome;
@@ -24,7 +24,7 @@ public class Atleta {
         this.cognome = cognome;
     }
 
-    public void setDataNascita(String dataNascita){
+    public void setDataNascita(Data dataNascita){
         this.dataNascita = dataNascita;
     }
 
@@ -40,7 +40,7 @@ public class Atleta {
         return cognome;
     }
     
-    public String getDataNascita(){
+    public Data getDataNascita(){
         return dataNascita;
     }
 
